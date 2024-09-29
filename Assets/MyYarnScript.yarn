@@ -2,11 +2,13 @@
 tags:
 position: -24,-95
 ---
-
+        in the forest:
 Unknown: WHOS THERE...?
 -> BOOO 
 Ghost: YOu SCared Me!!
-GHOST: STUTTERS... cc..can you do me a favor and give me a blanket? 
+You: Did i scare you?... ARENT YOU A GHOST? youre too cute for a ghost
+Ghost: STUTTERS... cc..can you do me a favor and give me food? 
+
 -> hell YEAH how can i say no to that cute face of yours eheh.
     <<jump PositiveResponse>>
 ->  NAH im good
@@ -16,10 +18,18 @@ GHOST: STUTTERS... cc..can you do me a favor and give me a blanket?
 title: PositiveResponse
 position: -205,34
 ---
- YAY! . Thank you
+ Ghost: YAY! . Thank you i have something for you 
+        gives you new ability "invisibility"
+        -> accept
+        Ghost: come again sometimes i will be waiting for you and this time i will scare you first ehehe
  ===
  title: NegativeResponse
 position: 179,34
  ---
- Ok... then go fight someone you still gonna give me what i want..
+ Ok... then you fight me! still gonna give me what i want..
+            GHOST LOST
+        Ghost: YOU won T-T heres your prize 
+        gives you new ability "invisibility"
+        -> accept 
+        Ghost: Come again sometimes i will be waiting for you and this time i win eheh
  ===
