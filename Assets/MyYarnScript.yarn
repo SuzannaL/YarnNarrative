@@ -1,0 +1,25 @@
+﻿title: Start
+tags:
+position: -24,-95
+---
+
+Unknown: WHOS THERE...?
+-> BOOO 
+Ghost: YOu SCared Me!!
+GHOST: STUTTERS... cc..can you do me a favor and give me a blanket? 
+-> hell YEAH how can i say no to that cute face of yours eheh.
+    <<jump PositiveResponse>>
+->  NAH im good
+    <<jump NegativeResponse>>
+===
+
+title: PositiveResponse
+position: -205,34
+---
+ YAY! . Thank you
+ ===
+ title: NegativeResponse
+position: 179,34
+ ---
+ Ok... then go fight someone you still gonna give me what i want..
+ ===
